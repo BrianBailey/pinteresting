@@ -5,6 +5,7 @@ Pinteresting::Application.routes.draw do
   root "pins#index"
   get "about"=> "pages#about"  # creates about_path
   get "rubyai"=> "pages#rubyai" #creates rubyapi_path
+  get "rubydrills" => "pages#rubydrills" #creates rubydrills_path
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
